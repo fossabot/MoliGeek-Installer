@@ -2,27 +2,23 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "MoliGeek"
-#define MyAppVersion "V1.0.0.0"
 #define MyAppPublisher "CoolPlayLin"
-#define MyAppURL "https://github.com/CoolPlayLin/MoliGeek-Installer"
 #define MyAppExeName "moligeek.exe"
 #define MyAppAssocName MyAppName + " File"
 #define MyAppAssocExt ".myp"
 #define MyAppAssocKey StringChange(MyAppAssocName, " ", "") + MyAppAssocExt
-#define MyAppUpdatesURL=https://github.com/CoolPlayLin/MoliGeek-Installer
-#define MyAppSupportURL=https://github.com/yourmoln/moligeek
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{4051D081-5A40-4269-AC00-E3079695D4EB}
 AppName={#MyAppName}
-AppVersion={#MyAppVersion}
+AppVersion=V1.0.0.0
 ;AppVerName={#MyAppName} {#MyAppVersion}
 AppPublisher={#MyAppPublisher}
-AppPublisherURL={#MyAppURL}
-AppSupportURL={#MyAppSupportURL}
-AppUpdatesURL={#MyAppUpdatesURL}
+AppPublisherURL=https://github.com/CoolPlayLin/MoliGeek-Installer
+AppSupportURL=https://github.com/yourmoln/moligeek
+AppUpdatesURL=https://github.com/CoolPlayLin/MoliGeek-Installer
 DefaultDirName={autopf}\{#MyAppName}
 ChangesAssociations=yes
 DefaultGroupName={#MyAppName}
@@ -44,8 +40,8 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\CoolPlayLin\OneDrive\桌面\Git\MoliGeek-Installer\src\dist\moligeek\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\CoolPlayLin\OneDrive\桌面\Git\MoliGeek-Installer\src\dist\moligeek\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\CoolPlayLin\OneDrive\桌面\Git\MoliGeek-Installer\dist\moligeek\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\CoolPlayLin\OneDrive\桌面\Git\MoliGeek-Installer\dist\moligeek\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Registry]

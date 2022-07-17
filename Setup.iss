@@ -23,7 +23,7 @@ DefaultDirName={autopf}\{#MyAppName}
 ChangesAssociations=yes
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
-LicenseFile=C:\Users\CoolPlayLin\OneDrive\×ÀÃæ\Git\MoliGeek-Installer\LICENSE.txt
+LicenseFile=C:\Users\CoolPlayLin\OneDrive\×ÀÃæ\Git\MoliGeek-Installer\LICENSE
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog

@@ -5,10 +5,10 @@ block_cipher = None
 
 
 a = Analysis(
-    ['moligeek.py'],
-    pathex=[],
+    ['src\moligeek.py'],
+    pathex=['C:\\Users\\CoolPlayLin\\OneDrive\\桌面\\Git\\MoliGeek-Installer\\Portable'],
     binaries=[],
-    datas=[],
+    datas=[('src\set','set')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -24,28 +24,22 @@ pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
 exe = EXE(
     pyz,
     a.scripts,
+    a.binaries,
+    a.zipfiles,
+    a.datas,
     [],
-    exclude_binaries=True,
     name='moligeek',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
     upx=True,
+    upx_exclude=[],
+    runtime_tmpdir=None,
     console=True,
     disable_windowed_traceback=False,
     argv_emulation=False,
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon='moligeek.ico',
-)
-coll = COLLECT(
-    exe,
-    a.binaries,
-    a.zipfiles,
-    a.datas,
-    strip=False,
-    upx=True,
-    upx_exclude=[],
-    name='moligeek',
+    icon='src\moligeek.ico',
 )

@@ -2,7 +2,7 @@
 
 Moligeek's Windows packaged version, for details, please go to the original author Github : [Direct link](https://github.com/yourmoln/moligeek/).
 
-# ⚠️*Warning*
+# ⚠️**Warning**
 
 *It is forbidden to use this tool for illegal purposes, and the user will bear all responsibilities for the consequences caused by illegal use!*
 

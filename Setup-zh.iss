@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "MOliGeek"
-#define MyAppVersion "V1.0.0.4"
+#define MyAppVersion "V1.0.0.5"
 #define MyAppPublisher "CoolPlayLin"
 #define MyAppURL "https://github.com/CoolPlayLin/MoliGeek-Installer/"
 #define MyAppExeName "moligeek.exe"

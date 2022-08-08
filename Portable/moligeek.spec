@@ -28,7 +28,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name='moligeek',
+    name='MOliGeek.Portable-ia32',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -42,4 +42,5 @@ exe = EXE(
     codesign_identity=None,
     entitlements_file=None,
     icon='src\moligeek.ico',
+    version="Version.txt",
 )

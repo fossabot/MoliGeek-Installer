@@ -1,5 +1,7 @@
 # Introduction
 
+**Main Version**
+
 Moligeek's Windows packaged version, for details, please go to the original author Github:[Direct link](https://github.com/yourmoln/moligeek/).
 
 # ⚠️**Warning**

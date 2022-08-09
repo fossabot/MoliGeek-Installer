@@ -40,7 +40,7 @@
    'Files\\Python\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_subprocess.py',
    'PYSOURCE'),
   ('moligeek',
-   'C:\\Users\\CoolPlayLin\\OneDrive\\桌面\\Git\\MoliGeek-Installer\\Source\\src\\moligeek.py',
+   'C:\\Users\\CoolPlayLin\\OneDrive\\桌面\\Git\\MoliGeek-Installer\\Source\\moligeek.py',
    'PYSOURCE')],
  True,
  False,

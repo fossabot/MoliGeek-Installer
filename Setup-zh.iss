@@ -22,14 +22,14 @@ AppUpdatesURL="https://github.com/CoolPlayLin/MoliGeek-Installer/releases/latest
 DefaultDirName={autopf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
-LicenseFile=C:\Users\CoolPlayLin\OneDrive\桌面\Git\MoliGeek-Installer\LICENSE
-InfoBeforeFile=C:\Users\CoolPlayLin\OneDrive\桌面\Git\MoliGeek-Installer\SetupBeforeInformation-zh.txt
+LicenseFile=D:\Git\MoliGeek-Installer\LICENSE
+InfoBeforeFile=D:\Git\MoliGeek-Installer\SetupBeforeInformation-zh.txt
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
-OutputDir=C:\Users\CoolPlayLin\OneDrive\桌面\Git\MoliGeek-Installer\Release
+OutputDir=D:\Git\MoliGeek-Installer\Release
 OutputBaseFilename=MOliGeek.Setup-ia32-zh
-SetupIconFile=C:\Users\CoolPlayLin\OneDrive\桌面\Git\MoliGeek-Installer\Source\moligeek.ico
+SetupIconFile=D:\Git\MoliGeek-Installer\Source\moligeek.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -43,8 +43,8 @@ Name: "ChineseTraditional"; MessagesFile: "compiler:Languages\ChineseTraditional
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\CoolPlayLin\OneDrive\桌面\Git\MoliGeek-Installer\Source\dist\moligeek\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\CoolPlayLin\OneDrive\桌面\Git\MoliGeek-Installer\Source\dist\moligeek\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "D:\Git\MoliGeek-Installer\Source\dist\moligeek\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\Git\MoliGeek-Installer\Source\dist\moligeek\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]

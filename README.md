@@ -5,7 +5,7 @@
 ## Introduction
 
 
-Moligeek's Windows packaged version, for details, please go to the original author Github:[Direct link]().
+Moligeek's Windows packaged version, for details, please go to the original author Github:[Direct link](https://github.com/CoolPlayLin/MoliGeek-Installer#related-projects).
 
 ## ⚠️**Warning**
 

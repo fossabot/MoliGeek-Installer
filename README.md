@@ -19,7 +19,7 @@ Moligeek's Windows packaged version, for details, please go to the original auth
 
 ## Related Projects
 
->**[Pyinstaller](https://avatars.githubusercontent.com/u/1215332?s=200&v=4)**
+>**[Pyinstaller](https://github.com/pyinstaller/pyinstaller/)**
 
 >**[Inno Setup](https://jrsoftware.org/files/istrans/)**
 

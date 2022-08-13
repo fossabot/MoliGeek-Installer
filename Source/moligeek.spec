@@ -6,9 +6,9 @@ block_cipher = None
 
 a = Analysis(
     ['moligeek.py'],
-    pathex=['C:\\Users\\CoolPlayLin\\OneDrive\\桌面\\Git\\MoliGeek-Installer\\Source'],
+    pathex=['D:\\Git\\MoliGeek-Installer\\Source\\'],
     binaries=[],
-    datas=[('set','set')],
+    datas=[],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -37,8 +37,9 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
+    uac_admin=True,
     icon='moligeek.ico',
-    version="Version.txt"
+    version='Version.txt'
 )
 coll = COLLECT(
     exe,

@@ -6,7 +6,7 @@ block_cipher = None
 
 a = Analysis(
     ['src\moligeek.py'],
-    pathex=['C:\\Users\\CoolPlayLin\\OneDrive\\桌面\\Git\\MoliGeek-Installer\\Portable'],
+    pathex=['D:\\Git\\MoliGeek-Installer\\Portable'],
     binaries=[],
     datas=[('src\set','set')],
     hiddenimports=[],

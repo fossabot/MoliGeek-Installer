@@ -32,11 +32,11 @@ VSVersionInfo(
         [StringStruct('Comments', 'This installation was built with Inno Setup.'),
         StringStruct('CompanyName', 'CoolPlayLin                                                 '),
         StringStruct('FileDescription', 'MOliGeek Portable                                              '),
-        StringStruct('FileVersion', '1.0.0.5             '),
+        StringStruct('FileVersion', '1.0.0.6             '),
         StringStruct('LegalCopyright', '© 2022 CoolPlayLin. All Rights Reserved.                                                            '),
         StringStruct('OriginalFileName', '                                                  '),
         StringStruct('ProductName', 'MOliGeek                                                    '),
-        StringStruct('ProductVersion', 'V1.0.0.5                                          ')])
+        StringStruct('ProductVersion', 'V1.0.0.6                                          ')])
       ]), 
     VarFileInfo([VarStruct('Translation', [0, 1200])])
   ]

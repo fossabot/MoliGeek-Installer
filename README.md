@@ -23,3 +23,5 @@ Moligeek's Windows packaged version, for details, please go to the original auth
 >**[Inno Setup](https://jrsoftware.org/files/istrans/)**
 
 >**[MoliGeek](https://github.com/yourmoln/moligeek/)**
+
+**© 2022 CoolPlayLin. All Rights Reserved.**

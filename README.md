@@ -3,6 +3,7 @@
 [![Apache-2.0](https://img.shields.io/badge/License-Apache%20License%202.0-blue)](https://choosealicense.com/licenses/apache-2.0/)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/CoolPlayLin/MoliGeek-Installer)](https://github.com/CoolPlayLin/MoliGeek-Installer/releases/latest/)
 ![GitHub all releases](https://img.shields.io/github/downloads/CoolPlayLin/MoliGeek-Installer/total)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FCoolPlayLin%2FMoliGeek-Installer.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FCoolPlayLin%2FMoliGeek-Installer?ref=badge_shield)
 
 ## **Introduction**
 
@@ -25,3 +26,6 @@ Moligeek's Windows packaged version, for details, please go to the original auth
 >**[MoliGeek](https://github.com/yourmoln/moligeek/)**
 
 **© 2022 CoolPlayLin. All Rights Reserved.**
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FCoolPlayLin%2FMoliGeek-Installer.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FCoolPlayLin%2FMoliGeek-Installer?ref=badge_large)

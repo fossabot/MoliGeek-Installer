@@ -1,4 +1,4 @@
-# MoliGeek-Installer
+# **MoliGeek-Installer**
 
 [![Apache-2.0](https://img.shields.io/badge/License-Apache%20License%202.0-blue)](https://choosealicense.com/licenses/apache-2.0/)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/CoolPlayLin/MoliGeek-Installer)](https://github.com/CoolPlayLin/MoliGeek-Installer/releases/latest/)
